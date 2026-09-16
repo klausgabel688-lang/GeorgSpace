@@ -13,8 +13,6 @@
   <img src="assets/features-strip.svg" alt="Custom systems, menus, events, community and gameplay" width="100%">
 </p>
 
-# Georg Space — Premium Minecraft Plugins
-
 Custom Paper plugins built for modern Minecraft servers.
 
 I create polished server systems, menus, events, community features and custom gameplay for **Paper 26.1.x / 26.1.2**. My projects are developed around real server use on **NeonSpace**.
@@ -23,7 +21,7 @@ I create polished server systems, menus, events, community features and custom g
 
 <p align="center"><img src="assets/neon-divider.svg" alt="" width="100%"></p>
 
-## 💎 Featured plugins
+<p align="center"><img src="assets/title-plugins.svg" alt="Premium Plugin Vault" width="100%"></p>
 
 | Plugin | What it does | Price | Status |
 | --- | --- | ---: | --- |
@@ -50,7 +48,7 @@ I create polished server systems, menus, events, community features and custom g
 
 <p align="center"><img src="assets/neon-divider.svg" alt="" width="100%"></p>
 
-## 🚀 Connect with Georg Space
+<p align="center"><img src="assets/title-connect.svg" alt="Connect with Georg Space" width="100%"></p>
 
 <table>
   <tr>
@@ -71,7 +69,7 @@ See [the complete plugin catalog](PLUGINS.md) for features and compatibility.
 
 <p align="center"><img src="assets/neon-divider.svg" alt="" width="100%"></p>
 
-## 🛒 How to buy
+<p align="center"><img src="assets/title-purchase.svg" alt="Secure Purchase" width="100%"></p>
 
 1. Join the official [Georg Space Discord](https://discord.gg/PHkDvWchU).
 2. Open a purchase ticket.
@@ -81,7 +79,7 @@ See [the complete plugin catalog](PLUGINS.md) for features and compatibility.
 
 Never send money to an account posted outside an official purchase ticket.
 
-## ✨ What a purchase includes
+<p align="center"><img src="assets/title-included.svg" alt="Included with Every Build" width="100%"></p>
 
 - Compiled plugin JAR
 - Included configuration files
@@ -94,14 +92,14 @@ Source code is not included unless a separate written agreement says otherwise.
 
 <p align="center"><img src="assets/neon-divider.svg" alt="" width="100%"></p>
 
-## 👨‍💻 Developer
+<p align="center"><img src="assets/title-developer.svg" alt="Developer Profile" width="100%"></p>
 
 **Georg Space**  
 Minecraft Plugin Developer · Founder of NeonSpace · Building custom servers, plugins and websites
 
 Minecraft server: `neonspace.serv.nu`
 
-## License
+<p align="center"><img src="assets/title-license.svg" alt="License and Protection" width="100%"></p>
 
 These are commercial projects. Viewing this repository does not grant permission to copy, redistribute, resell or publish any paid plugin. Read the [commercial license summary](LICENSE.md).
 
