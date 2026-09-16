@@ -42,6 +42,23 @@ I create polished server systems, menus, events, community features and custom g
 | EventCandyPack | Event-only resource-pack controller | €2.99 | Available |
 | NeonItemShop | Oraxen and Vanilla item shop with Vault economy | — | Coming soon |
 
+## Connect with Georg Space
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://discord.gg/PHkDvWchU">
+        <img src="assets/discord-card.svg" alt="Join the Georg Space Discord" width="100%">
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://georg-space.klausgabel688.chatgpt.site/">
+        <img src="assets/website-card.svg" alt="Open the Georg Space website" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
+
 See [the complete plugin catalog](PLUGINS.md) for features and compatibility.
 
 ## How to buy
