@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img" aria-labelledby="title">
+  <title id="title">Custom Systems, Menus, Events, Community and Gameplay</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f6ff"/>
+      <stop offset="0.5" stop-color="#576cff"/>
+      <stop offset="1" stop-color="#e52cff"/>
+      <animate attributeName="x1" values="0;0.6;0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="c"><rect x="2" y="2" width="1196" height="108" rx="25"/></clipPath>
+  </defs>
+  <rect x="2" y="2" width="1196" height="108" rx="25" fill="#070d20" stroke="url(#g)" stroke-width="4"/>
+  <g clip-path="url(#c)">
+    <circle cx="0" cy="56" r="90" fill="#00eaff" opacity="0.12"><animate attributeName="cx" values="0;1200;0" dur="10s" repeatCount="indefinite"/></circle>
+    <circle cx="1200" cy="56" r="90" fill="#e52cff" opacity="0.12"><animate attributeName="cx" values="1200;0;1200" dur="10s" repeatCount="indefinite"/></circle>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="21" text-anchor="middle" filter="url(#glow)">
+    <text x="120" y="65" fill="#65f8ff">SYSTEMS</text>
+    <text x="360" y="65" fill="#59b8ff">MENUS</text>
+    <text x="600" y="65" fill="#8a78ff">EVENTS</text>
+    <text x="840" y="65" fill="#c356ff">COMMUNITY</text>
+    <text x="1080" y="65" fill="#f05cff">GAMEPLAY</text>
+  </g>
+  <g fill="#fff" filter="url(#glow)">
+    <circle cx="240" cy="56" r="4"><animate attributeName="r" values="3;7;3" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="480" cy="56" r="4"><animate attributeName="r" values="3;7;3" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="56" r="4"><animate attributeName="r" values="3;7;3" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="56" r="4"><animate attributeName="r" values="3;7;3" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
