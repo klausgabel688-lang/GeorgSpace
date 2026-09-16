@@ -71,7 +71,7 @@ I create polished server systems, menus, events, community features and custom g
   </a>
 </p>
 
-> **Eigenes Plugin:** Name, Version, Größe und Premium-Stufe auswählen. Mit Georg-Space-Wasserzeichen **+0 €**, ohne Wasserzeichen **+50 €**. Der endgültige Preis wird live auf der Website berechnet.
+> **Custom plugin:** Choose the name, version, size and premium tier. Georg Space branding costs **+€0**; removing it costs **+€50**. Your final price is calculated live on the website.
 
 See [the complete plugin catalog](PLUGINS.md) for features and compatibility.
 
