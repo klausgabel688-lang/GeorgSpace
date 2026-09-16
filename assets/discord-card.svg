@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="245" viewBox="0 0 560 245" role="img" aria-labelledby="title desc">
+  <title id="title">Join the Georg Space Discord</title>
+  <desc id="desc">Animated rounded Discord card with a Join Now button.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101a4a"/>
+      <stop offset="0.55" stop-color="#5865f2"/>
+      <stop offset="1" stop-color="#7b3cff"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#70f7ff"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ca69ff"/>
+      <animate attributeName="x1" values="0;0.45;0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect x="4" y="4" width="552" height="237" rx="28"/></clipPath>
+  </defs>
+  <rect x="4" y="4" width="552" height="237" rx="28" fill="url(#bg)" stroke="url(#border)" stroke-width="4"/>
+  <g clip-path="url(#clip)">
+    <circle cx="480" cy="35" r="115" fill="#ffffff" opacity="0.07">
+      <animate attributeName="r" values="100;125;100" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="68" cy="220" r="100" fill="#00eaff" opacity="0.08">
+      <animate attributeName="opacity" values="0.04;0.15;0.04" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="-170" y="0" width="95" height="245" fill="#fff" opacity="0.11" transform="skewX(-20)">
+      <animate attributeName="x" values="-170;700" dur="4.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M94 62c-23 0-42 19-42 42v22c0 23 19 42 42 42h17l13 18 13-18h28c23 0 42-19 42-42v-22c0-23-19-42-42-42zm15 47a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm42 0a9 9 0 1 1 0 18 9 9 0 0 1 0-18z" fill="#fff" opacity="0.96"/>
+  </g>
+  <text x="235" y="76" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="3">GEORG SPACE</text>
+  <text x="235" y="116" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="900">DISCORD</text>
+  <text x="235" y="145" fill="#dce1ff" font-family="Arial, Helvetica, sans-serif" font-size="16">Support • Purchases • Community</text>
+  <g filter="url(#glow)">
+    <rect x="235" y="168" width="205" height="49" rx="18" fill="#fff">
+      <animate attributeName="width" values="205;218;205" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="235;228.5;235" dur="1.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="338" y="200" text-anchor="middle" fill="#4b57dc" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="900" letter-spacing="2">JOIN NOW</text>
+  </g>
+</svg>
