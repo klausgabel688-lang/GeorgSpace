@@ -35,7 +35,7 @@ See [the complete plugin catalog](PLUGINS.md) for features and compatibility.
 
 ## How to buy
 
-1. Join the official Georg Space Discord. The permanent invite link will be added here shortly.
+1. Join the official [Georg Space Discord](https://discord.gg/PHkDvWchU).
 2. Open a purchase ticket.
 3. Send the plugin name and your Paper/Java version.
 4. You receive the exact price and PayPal payment instructions inside the private ticket.
