@@ -65,6 +65,14 @@ I create polished server systems, menus, events, community features and custom g
   </tr>
 </table>
 
+<p align="center">
+  <a href="https://georg-space.klausgabel688.chatgpt.site/buy/plugin">
+    <img src="assets/custom-plugin-configurator.svg" alt="Configure your own Georg Space plugin" width="100%">
+  </a>
+</p>
+
+> **Eigenes Plugin:** Name, Version, Größe und Premium-Stufe auswählen. Mit Georg-Space-Wasserzeichen **+0 €**, ohne Wasserzeichen **+50 €**. Der endgültige Preis wird live auf der Website berechnet.
+
 See [the complete plugin catalog](PLUGINS.md) for features and compatibility.
 
 <p align="center"><img src="assets/neon-divider.svg" alt="" width="100%"></p>
