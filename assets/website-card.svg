@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="245" viewBox="0 0 560 245" role="img" aria-labelledby="title desc">
+  <title id="title">Open the Georg Space website</title>
+  <desc id="desc">Animated rounded Georg Space website card with an Open Website button.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#031f2f"/>
+      <stop offset="0.5" stop-color="#006e93"/>
+      <stop offset="1" stop-color="#521078"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f6ff"/>
+      <stop offset="0.52" stop-color="#6ffff2"/>
+      <stop offset="1" stop-color="#d629ff"/>
+      <animate attributeName="x1" values="0;0.45;0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect x="4" y="4" width="552" height="237" rx="28"/></clipPath>
+  </defs>
+  <rect x="4" y="4" width="552" height="237" rx="28" fill="url(#bg)" stroke="url(#border)" stroke-width="4"/>
+  <g clip-path="url(#clip)">
+    <circle cx="65" cy="45" r="115" fill="#00f6ff" opacity="0.07">
+      <animate attributeName="r" values="100;125;100" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="220" r="105" fill="#d629ff" opacity="0.08">
+      <animate attributeName="opacity" values="0.04;0.15;0.04" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="-170" y="0" width="95" height="245" fill="#fff" opacity="0.11" transform="skewX(-20)">
+      <animate attributeName="x" values="-170;700" dur="5.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g filter="url(#glow)" fill="none" stroke="#fff" stroke-width="7">
+    <circle cx="126" cy="116" r="58"/>
+    <ellipse cx="126" cy="116" rx="24" ry="58"/>
+    <path d="M70 98h112M70 134h112"/>
+  </g>
+  <text x="235" y="76" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="3">GEORG SPACE</text>
+  <text x="235" y="116" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="900">WEBSITE</text>
+  <text x="235" y="145" fill="#c8fbff" font-family="Arial, Helvetica, sans-serif" font-size="16">Projects • Plugins • Development</text>
+  <g filter="url(#glow)">
+    <rect x="235" y="168" width="235" height="49" rx="18" fill="#fff">
+      <animate attributeName="width" values="235;248;235" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="235;228.5;235" dur="1.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="352.5" y="200" text-anchor="middle" fill="#007b9d" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900" letter-spacing="1.5">OPEN WEBSITE</text>
+  </g>
+</svg>
