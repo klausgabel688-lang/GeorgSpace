@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="assets/georgspace-banner.svg" alt="Georg Space — Premium Minecraft Plugins" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://discord.gg/PHkDvWchU"><img src="https://img.shields.io/badge/JOIN_DISCORD-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white" alt="Join Discord"></a>
+  <img src="https://img.shields.io/badge/PAPER-26.1.2-00d9ff?style=for-the-badge" alt="Paper 26.1.2">
+  <img src="https://img.shields.io/badge/JAVA-25-b329ff?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white" alt="Java 25">
+  <img src="https://img.shields.io/badge/PRIVATE-PREMIUM_PLUGINS-151b2d?style=for-the-badge" alt="Private premium plugins">
+</p>
+
 # Georg Space — Premium Minecraft Plugins
 
 Custom Paper plugins built for modern Minecraft servers.
