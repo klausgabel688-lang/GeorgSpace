@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="125" viewBox="0 0 1200 125" role="img" aria-label="Secure Purchase">
+  <defs><linearGradient id="g"><stop stop-color="#00ffc8"/><stop offset=".5" stop-color="#00aaff"/><stop offset="1" stop-color="#9c5cff"/><animate attributeName="x2" values="1;.2;1" dur="4s" repeatCount="indefinite"/></linearGradient><filter id="x" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect x="165" y="13" width="870" height="99" rx="30" fill="#061923" stroke="url(#g)" stroke-width="4"/>
+  <path d="M228 52h26l10 34h57l12-24h-70M278 94a7 7 0 1 0 0 .1M319 94a7 7 0 1 0 0 .1" fill="none" stroke="url(#g)" stroke-width="6" stroke-linecap="round" filter="url(#x)"/>
+  <text x="630" y="58" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="900" letter-spacing="5" fill="url(#g)" filter="url(#x)">⚡ SECURE PURCHASE ⚡</text>
+  <text x="630" y="88" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="#bdfdf1">DISCORD TICKET • PAYPAL • PRIVATE DELIVERY</text>
+</svg>
