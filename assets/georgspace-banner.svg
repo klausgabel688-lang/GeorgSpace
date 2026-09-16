@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Georg Space Premium Minecraft Plugins</title>
+  <desc id="desc">Animated cyan and purple space banner for Georg Space.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020611"/>
+      <stop offset="0.48" stop-color="#07152b"/>
+      <stop offset="1" stop-color="#160529"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00efff"/>
+      <stop offset="0.5" stop-color="#4d7cff"/>
+      <stop offset="1" stop-color="#e329ff"/>
+      <animate attributeName="x1" values="0;0.35;0" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0.65;1" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="planet">
+      <stop offset="0" stop-color="#55f7ff"/>
+      <stop offset="0.35" stop-color="#0879e9"/>
+      <stop offset="0.75" stop-color="#281275"/>
+      <stop offset="1" stop-color="#07051d"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="360" rx="28"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <circle cx="210" cy="178" r="150" fill="#00d9ff" opacity="0.1" filter="url(#softGlow)">
+      <animate attributeName="r" values="138;160;138" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.08;0.18;0.08" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1030" cy="70" r="140" fill="#b900ff" opacity="0.1" filter="url(#softGlow)"/>
+
+    <g fill="#ffffff">
+      <circle cx="70" cy="58" r="2" opacity="0.35"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="355" cy="75" r="2.5" opacity="0.7"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.1s" repeatCount="indefinite"/></circle>
+      <circle cx="460" cy="308" r="2" opacity="0.5"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.7s" repeatCount="indefinite"/></circle>
+      <circle cx="790" cy="62" r="2" opacity="0.7"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="920" cy="295" r="2.5" opacity="0.35"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="1130" cy="230" r="2" opacity="0.65"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.8s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <g filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate" values="0,-5;0,5;0,-5" dur="4.5s" repeatCount="indefinite"/>
+      <circle cx="206" cy="176" r="92" fill="url(#planet)" stroke="url(#neon)" stroke-width="8"/>
+      <ellipse cx="206" cy="176" rx="145" ry="42" fill="none" stroke="url(#neon)" stroke-width="12" transform="rotate(-14 206 176)"/>
+      <path d="M245 111c-17-13-38-20-61-20-56 0-101 42-101 94s45 94 101 94c43 0 78-23 95-57h-82v-39h134v25c-14 66-71 111-147 111-86 0-155-59-155-134S98 51 184 51c43 0 81 14 109 40z" fill="none" stroke="url(#neon)" stroke-width="15" stroke-linejoin="round"/>
+      <circle cx="292" cy="74" r="16" fill="#a629ff" stroke="#63f6ff" stroke-width="4"/>
+    </g>
+
+    <g font-family="Arial, Helvetica, sans-serif" filter="url(#glow)">
+      <text x="390" y="160" font-size="76" font-weight="900" letter-spacing="4" fill="url(#neon)">GEORG SPACE</text>
+      <text x="396" y="216" font-size="25" font-weight="700" letter-spacing="8" fill="#d4faff">PREMIUM MINECRAFT PLUGINS</text>
+      <text x="398" y="260" font-size="18" font-weight="600" letter-spacing="2" fill="#a7b9d8">PAPER 26.1.2  •  PRIVATE BUILDS  •  NEONSPACE</text>
+    </g>
+
+    <rect x="-260" y="0" width="170" height="360" fill="#ffffff" opacity="0.07" transform="skewX(-20)">
+      <animate attributeName="x" values="-260;1450" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1.5" y="1.5" width="1197" height="357" rx="27" fill="none" stroke="url(#neon)" stroke-width="3" opacity="0.9"/>
+  </g>
+</svg>
