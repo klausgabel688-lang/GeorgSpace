@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="145" viewBox="0 0 1200 145" role="img" aria-label="Premium Plugin Vault">
+  <defs><linearGradient id="g"><stop stop-color="#00f5ff"/><stop offset=".48" stop-color="#7b78ff"/><stop offset="1" stop-color="#ef38ff"/><animate attributeName="x1" values="0;1;0" dur="5s" repeatCount="indefinite"/></linearGradient><filter id="x" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><clipPath id="c"><rect x="4" y="4" width="1192" height="137" rx="29"/></clipPath></defs>
+  <rect x="4" y="4" width="1192" height="137" rx="29" fill="#070c20" stroke="url(#g)" stroke-width="5"/>
+  <g clip-path="url(#c)"><rect x="-180" width="110" height="145" fill="#fff" opacity=".1" transform="skewX(-22)"><animate attributeName="x" values="-180;1450" dur="5s" repeatCount="indefinite"/></rect><circle cx="80" cy="72" r="85" fill="#00efff" opacity=".1"/><circle cx="1120" cy="72" r="85" fill="#ed31ff" opacity=".1"/></g>
+  <g fill="url(#g)" filter="url(#x)"><path d="M90 94 58 61l20 5 12-31 12 31 20-5z"/><path d="M1110 94l-32-33 20 5 12-31 12 31 20-5z"/></g>
+  <text x="600" y="69" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="900" letter-spacing="5" fill="url(#g)" filter="url(#x)">✦ PREMIUM PLUGIN VAULT ✦</text>
+  <text x="600" y="106" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="5" fill="#bfefff">PRIVATE BUILDS • POWERFUL SYSTEMS • REAL SUPPORT</text>
+</svg>
